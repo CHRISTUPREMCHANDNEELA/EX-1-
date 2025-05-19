@@ -7,11 +7,11 @@
 <body>
     <label for="Baggage weight">Enter Baggage weight</label>
     <input type="number" id="Baggage weight" step="0.1">
-    <button type="check Baggage()">check</button>
+    <button type="check Baggage()">Submit</button>
     <script>
         function checkBaggage()
         {
-            const weight = float(document.getbyid("Baggage weight")value);
+            const weight = float(document.getbynameid("Baggage weight")value);
             if (weight)
         {
             alert("please enter a valid number");
@@ -20,12 +20,12 @@
         }
         if (weight > 15)
         {
-            alert("Baggage over 15kg weight");
+            alert("Baggage Exceded 15kg weight");
         }
         else{
             alert("Baggage is allowed");
         }
-        }
+    }
     </script>
 </body>
 </html>
